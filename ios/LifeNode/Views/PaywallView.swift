@@ -190,11 +190,11 @@ struct PaywallView: View {
                 .multilineTextAlignment(.center)
 
             HStack(spacing: 16) {
-                Link("Terms of Use", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!)
+                Link("Terms of Use", destination: URL(string: "https://socialreporthq.com/lifenode/terms")!)
                     .font(.caption2)
                     .foregroundStyle(.secondary)
 
-                Link("Privacy Policy", destination: URL(string: "https://www.apple.com/legal/privacy/")!)
+                Link("Privacy Policy", destination: URL(string: "https://socialreporthq.com/lifenode/privacy/")!)
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             }
